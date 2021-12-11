@@ -1,13 +1,13 @@
-package ru.vdv.mymemoryards.ui.home
+package ru.vdv.mymemoryards.ui.statistics
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class StatisticsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "Фрагмент отображения статистики пользователя и его друзей"
     }
     val text: LiveData<String> = _text
 }

@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">My Memory сards</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_card_areas">Мнемо - карточки</string>
+    <string name="title_trainings_areas">Тренировка / Тестирование</string>
+    <string name="title_statistics">Статистика</string>
+    <string name="title_statistics_for_bnm">Статистика</string>
+    <string name="title_trainings_areas_for_bnm">Тестирование</string>
+    <string name="title_card_areas_for_bnm">Карточки</string>
 </resources>

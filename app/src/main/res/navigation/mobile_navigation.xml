@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_card_areas">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="ru.vdv.mymemoryards.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_card_areas"
+        android:name="ru.vdv.mymemoryards.ui.cards.CardAreasFragment"
+        android:label="@string/title_card_areas"
+        tools:layout="@layout/fragment_card_areas" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="ru.vdv.mymemoryards.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_trainings_areas"
+        android:name="ru.vdv.mymemoryards.ui.trainings.TrainingsAreasFragment"
+        android:label="@string/title_trainings_areas"
+        tools:layout="@layout/fragment_trainings_areas" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="ru.vdv.mymemoryards.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_statistics"
+        android:name="ru.vdv.mymemoryards.ui.statistics.StatisticsFragment"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/fragment_statistics" />
 </navigation>
