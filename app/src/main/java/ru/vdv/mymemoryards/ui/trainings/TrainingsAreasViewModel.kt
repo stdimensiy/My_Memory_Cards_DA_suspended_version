@@ -1,13 +1,13 @@
-package ru.vdv.mymemoryards.ui.dashboard
+package ru.vdv.mymemoryards.ui.trainings
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class DashboardViewModel : ViewModel() {
+class TrainingsAreasViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "Фрагмент отображения областей знаний с тренировками (тестами)"
     }
     val text: LiveData<String> = _text
 }
